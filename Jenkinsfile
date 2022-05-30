@@ -29,7 +29,7 @@ pipeline {
         }
         stage('Docker') {
             steps {
-                echo 'Image step'
+                echo 'Images step'
             }
         }
     }
